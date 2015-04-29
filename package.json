@@ -2,7 +2,7 @@
   "name": "HM_WS_01",
   "version": "1.0.0",
   "description": "targil 0 web server",
-  "main": "node2.js",
+  "main": "ws_index.js",
   "dependencies": {
     "util": "^0.10.3",
     "events": "^1.0.2"

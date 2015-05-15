@@ -2,7 +2,13 @@ var http = require ('http');
 var events = require('events');
 var util = require('util');
 var ScoreTable =require('./goal');
+
+config={
+
+}
+
 //gloabal msg
+
 msg="";
 
 var temp ={
@@ -23,4 +29,5 @@ function cbServer(req,res){
 	res.write(msg);
 	res.end()
 	}
-server.listen(3000,"127.0.0.1");
+var port = process.env.PORT || 8008;
+server.listen(port);
